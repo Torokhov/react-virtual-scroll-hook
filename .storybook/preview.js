@@ -1,5 +1,14 @@
-// https://storybook.js.org/docs/react/writing-stories/parameters#global-parameters
+import { addDecorator } from '@storybook/react';
+import { withKnobs } from '@storybook/addon-knobs';
+
+addDecorator(withKnobs);
+
 export const parameters = {
-  // https://storybook.js.org/docs/react/essentials/actions#automatically-matching-args
-  actions: { argTypesRegex: '^on.*' },
+  actions: { argTypesRegex: '^on[A-Z].*' },
+  controls: {
+    matchers: {
+      color: /(background|color)$/i,
+      date: /Date$/,
+    },
+  },
 };

@@ -1,39 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e6662d1-110d-4f89-be19-af37de06bb50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/size.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/react-virtual-scroll-hook.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stories/Thing.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/blah.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="ebd748d1-c8ee-4506-adaf-eebe56130b76" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/VirtualScroll.story.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VirtualScroll/VirtualScrool.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VirtualScroll/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/size.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/preview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stories/Thing.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/blah.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="build-customize" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="26ltxQyu4nFkcxIv45Xw6AjXube" />
+  <component name="ProjectId" id="26P3lbx6e10TIDmYzKGP7MvNEq8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,29 +56,97 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\olegtorokhov\Projects\react-infinite-scroll-hook\node_modules\eslint" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\olegtorokhov\Projects\react-infinite-scroll-hook\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="C:\Users\olegtorokhov\Projects\react-infinite-scroll-hook\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\olegtorokhov\Projects\react-infinite-scroll-hook\src\components\InfiniteScroll" />
+      <recent name="C:\Users\olegtorokhov\Projects\react-infinite-scroll-hook" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2e6662d1-110d-4f89-be19-af37de06bb50" name="Default Changelist" comment="" />
-      <created>1648010247464</created>
+      <changelist id="ebd748d1-c8ee-4506-adaf-eebe56130b76" name="Default Changelist" comment="" />
+      <created>1647311545647</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1648010247464</updated>
-      <workItem from="1648010248962" duration="604000" />
-      <workItem from="1648011799529" duration="740000" />
-      <workItem from="1648012574226" duration="390000" />
+      <updated>1647311545647</updated>
+      <workItem from="1647311547427" duration="2004000" />
+      <workItem from="1647489354835" duration="6824000" />
+      <workItem from="1647499783138" duration="273000" />
+      <workItem from="1647500070348" duration="192000" />
+      <workItem from="1647500278445" duration="168000" />
+      <workItem from="1647500459007" duration="666000" />
+      <workItem from="1647501157646" duration="5769000" />
+      <workItem from="1647831352952" duration="24499000" />
+      <workItem from="1648012666866" duration="267000" />
     </task>
+    <task id="LOCAL-00001" summary="настроил сборку">
+      <created>1647313432560</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647313432560</updated>
+    </task>
+    <task id="LOCAL-00002" summary="переделал конфиг сборки">
+      <created>1647506664822</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647506664822</updated>
+    </task>
+    <task id="LOCAL-00003" summary="набросал реализацию бесконечного скролла">
+      <created>1647859400243</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647859400243</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Причесал компонент">
+      <created>1647934295349</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647934295349</updated>
+    </task>
+    <task id="LOCAL-00005" summary="добавил хук useInfiniteScroll">
+      <created>1647944812283</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647944812283</updated>
+    </task>
+    <task id="LOCAL-00006" summary="добавил knobs">
+      <created>1648006885999</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648006885999</updated>
+    </task>
+    <task id="LOCAL-00007" summary="удалил лишнее">
+      <created>1648007391459</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648007391459</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,10 +162,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="настроил сборку" />
+    <MESSAGE value="переделал конфиг сборки" />
+    <MESSAGE value="набросал реализацию бесконечного скролла" />
+    <MESSAGE value="Причесал компонент" />
+    <MESSAGE value="добавил хук useInfiniteScroll" />
+    <MESSAGE value="добавил knobs" />
+    <MESSAGE value="удалил лишнее" />
+    <option name="LAST_COMMIT_MESSAGE" value="удалил лишнее" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
